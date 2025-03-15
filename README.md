@@ -3,5 +3,13 @@ Project Group #: 8
 - Author(s): Joyce Shiah 
 - Email: jshiah@ucsd.edu
 
-The project addresses the challenge of predicting the Remaining Useful Life (RUL) of turbofan engines, a critical factor in both commercial and military aviation, to the highest efficiency. While RUL prediction has been explored in previous research, this project introduces an adaptive sliding window approach to better capture degradation patterns under varying operating conditions, improving prediction accuracy, safety, reliability, and overall sustainability.
 
+Predicting the Remaining Useful Life (RUL) of turbofan engines is critical for ensuring aviation safety, reliability, and efficiency. This project introduces an adaptive sliding window approach that dynamically adjusts its size to capture real-time degradation trends under varying operating conditions. Unlike traditional fixed-window methods, this approach adapts to fluctuating degradation rates, improving prediction accuracy, human safety, and reducing unnecessary maintenance. By extending maintenance intervals for engines experiencing slower degradation and accelerating intervention for rapid deterioration, the method optimizes resource allocation and enhances equipment longevity. A refined sensor selection strategy – based on feature importance analysis – demonstrated improved performance compared to previous studies on the NASA C-MAPSS dataset. This approach contributes to improved safety, reduced maintenance costs, and increased environmental sustainability by minimizing premature component replacements.
+
+Materials necessary for installation and set-up of Project reproduction:
+1. `8-SW.zip` is the zip file for all source code and contains this README.txtm detailing instructions on how to compile and run the code. Download the .zip file and locate these key files: `train_FD001.txt`, `README.txt`, `G8_Milestone4.ipynb`, 
+2. `train_FD001.txt` - The FD001 dataset (inside the .zip)is a simulated turbofan engine that operates on sea-level conditions with a high-pressure compressor degradation fault mode. FD001 contains 100 engine trajectories — each representing the operational history of a single engine unit — and a total of 20,631 performance snapshots. To use the dataset, download the file into your local drive and replace the Path Name with your local Path Name in this line: `df1 = pd.read_csv('/Users/JoyceShiah/Desktop/CMAPSSData/train_FD001.txt', sep="\s+", header=None, names=column_names, index_col=False)`
+Reference to dataset:
+Saxena, A., & Goebel, K. (2008). Turbofan engine degradation simulation data set. NASA Prognostics Data Repository. NASA Ames Research Center.
+3. Compile and ensure the first two code chunks, which contain the necessary imports of libraries, naming of columns, and the loading of the simulation dataset into the Pandas dataframe
+Project status: Complete.

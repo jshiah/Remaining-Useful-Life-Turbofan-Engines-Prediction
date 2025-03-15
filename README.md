@@ -1,7 +1,7 @@
-#### Predicting the Remaining Useful Life of NASA Turbofan Engines 
-DSC 288R, Project Group #: 8 
-- Author(s): Joyce Shiah 
-- Email: jshiah@ucsd.edu
+## Predicting the Remaining Useful Life of NASA Turbofan Engines 
+#### DSC 288R, Project Group #: 8 
+#### Author(s): Joyce Shiah 
+#### Email: jshiah@ucsd.edu
 
 
 Predicting the Remaining Useful Life (RUL) of turbofan engines is critical for ensuring aviation safety, reliability, and efficiency. This project introduces an adaptive sliding window approach that dynamically adjusts its size to capture real-time degradation trends under varying operating conditions. Unlike traditional fixed-window methods, this approach adapts to fluctuating degradation rates, improving prediction accuracy, human safety, and reducing unnecessary maintenance. By extending maintenance intervals for engines experiencing slower degradation and accelerating intervention for rapid deterioration, the method optimizes resource allocation and enhances equipment longevity. A refined sensor selection strategy – based on feature importance analysis – demonstrated improved performance compared to previous studies on the NASA C-MAPSS dataset. This approach contributes to improved safety, reduced maintenance costs, and increased environmental sustainability by minimizing premature component replacements.

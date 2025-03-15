@@ -1,4 +1,4 @@
-Predicting the Remaining Useful Life of NASA Turbofan Engines 
+#### Predicting the Remaining Useful Life of NASA Turbofan Engines 
 DSC 288R, Project Group #: 8 
 - Author(s): Joyce Shiah 
 - Email: jshiah@ucsd.edu
